@@ -26,6 +26,7 @@ services:
       - AWS_ACCESS_SECRET
       - AWS_REGION
       - AWS_BUCKET
+      - ADMIN_JWT_SECRET
   frontend:
     image: kaneknight/improvefrontend
     ports:
